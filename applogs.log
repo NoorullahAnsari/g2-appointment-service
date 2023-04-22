@@ -1,0 +1,99 @@
+2023-04-17T00:12:15.136+05:30  INFO 20244 --- [http-nio-9003-exec-2] com.pms.Controller.CentralizedLogging    : ----->before @showAvailability:[PA00C945]
+2023-04-17T00:12:15.276+05:30  INFO 20244 --- [http-nio-9003-exec-2] com.pms.Controller.CentralizedLogging    : ----->after @showAvailability:[PA00C945], result: <200 OK OK,[],[]>
+2023-04-17T00:12:46.935+05:30  INFO 20244 --- [http-nio-9003-exec-6] com.pms.Controller.CentralizedLogging    : ----->before @saveDetails:[Appointment(appointmentId=null, reason=Heart problem, appointmentDate=2023-04-20, acceptance=pending, patientId=PA00C945, physicianEmail=dr.noor@pms.com, PatientName=Rahul Kumar, submissionDate=2023-04-17)]
+2023-04-17T00:12:46.966+05:30  INFO 20244 --- [http-nio-9003-exec-6] com.pms.Controller.CentralizedLogging    : ----->after @saveDetails:[Appointment(appointmentId=AP008F4F, reason=Heart problem, appointmentDate=2023-04-20, acceptance=pending, patientId=PA00C945, physicianEmail=dr.noor@pms.com, PatientName=Rahul Kumar, submissionDate=2023-04-17)], result: <201 CREATED Created,Appointment(appointmentId=AP008F4F, reason=Heart problem, appointmentDate=2023-04-20, acceptance=pending, patientId=PA00C945, physicianEmail=dr.noor@pms.com, PatientName=Rahul Kumar, submissionDate=2023-04-17),[]>
+2023-04-17T00:12:50.667+05:30  INFO 20244 --- [http-nio-9003-exec-7] com.pms.Controller.CentralizedLogging    : ----->before @showAvailability:[PA00C945]
+2023-04-17T00:12:50.728+05:30  INFO 20244 --- [http-nio-9003-exec-7] com.pms.Controller.CentralizedLogging    : ----->after @showAvailability:[PA00C945], result: <200 OK OK,[Appointment(appointmentId=AP008F4F, reason=Heart problem, appointmentDate=2023-04-20, acceptance=pending, patientId=PA00C945, physicianEmail=dr.noor@pms.com, PatientName=Rahul Kumar, submissionDate=2023-04-17)],[]>
+2023-04-17T00:13:32.863+05:30  INFO 20244 --- [http-nio-9003-exec-3] com.pms.Controller.CentralizedLogging    : ----->before @showAllAvailability:[]
+2023-04-17T00:13:32.907+05:30  INFO 20244 --- [http-nio-9003-exec-3] com.pms.Controller.CentralizedLogging    : ----->after @showAllAvailability:[], result: <200 OK OK,[Appointment(appointmentId=AP002835, reason=fever, appointmentDate=2023-04-20, acceptance=pending, patientId=PA000DFC, physicianEmail=kush@gmail.com, PatientName=Noorrullah Ansari, submissionDate=2023-04-16), Appointment(appointmentId=AP005942, reason=headache, appointmentDate=2023-04-16, acceptance=pending, patientId=PA000DFC, physicianEmail=dr.roshan@pms.com, PatientName=Noorrullah Ansari, submissionDate=2023-04-16), Appointment(appointmentId=AP007303, reason=heart pain, appointmentDate=2023-04-17, acceptance=pending, patientId=PA004416, physicianEmail=dr.noor@pms.com, PatientName=Tauqeer Alam, submissionDate=2023-04-16), Appointment(appointmentId=AP008F4F, reason=Heart problem, appointmentDate=2023-04-20, acceptance=pending, patientId=PA00C945, physicianEmail=dr.noor@pms.com, PatientName=Rahul Kumar, submissionDate=2023-04-17)],[]>
+2023-04-17T00:14:53.450+05:30  INFO 20244 --- [http-nio-9003-exec-1] com.pms.Controller.CentralizedLogging    : ----->before @showAvailability:[PA00C945]
+2023-04-17T00:14:53.503+05:30  INFO 20244 --- [http-nio-9003-exec-1] com.pms.Controller.CentralizedLogging    : ----->after @showAvailability:[PA00C945], result: <200 OK OK,[Appointment(appointmentId=AP008F4F, reason=Heart problem, appointmentDate=2023-04-20, acceptance=pending, patientId=PA00C945, physicianEmail=dr.noor@pms.com, PatientName=Rahul Kumar, submissionDate=2023-04-17)],[]>
+2023-04-17T00:21:58.312+05:30  INFO 20244 --- [http-nio-9003-exec-7] com.pms.Controller.CentralizedLogging    : ----->before @showAvailabilityByDate:[undefined,accepted,2023-04-17]
+2023-04-17T00:21:58.348+05:30  INFO 20244 --- [http-nio-9003-exec-7] com.pms.Controller.CentralizedLogging    : ----->after @showAvailabilityByDate:[undefined,accepted,2023-04-17], result: <200 OK OK,[],[]>
+2023-04-17T00:22:07.289+05:30  INFO 20244 --- [http-nio-9003-exec-9] com.pms.Controller.CentralizedLogging    : ----->before @showAvailabilityByDate:[dr.roshan@pms.com,pending,null]
+2023-04-17T00:22:07.305+05:30  INFO 20244 --- [http-nio-9003-exec-9] com.pms.Controller.CentralizedLogging    : ----->after @showAvailabilityByDate:[dr.roshan@pms.com,pending,null], result: <200 OK OK,[Appointment(appointmentId=AP005942, reason=headache, appointmentDate=2023-04-16, acceptance=pending, patientId=PA000DFC, physicianEmail=dr.roshan@pms.com, PatientName=Noorrullah Ansari, submissionDate=2023-04-16)],[]>
+2023-04-17T00:22:12.611+05:30  INFO 20244 --- [http-nio-9003-exec-1] com.pms.Controller.CentralizedLogging    : ----->before @updateDetails:[Appointment(appointmentId=null, reason=null, appointmentDate=null, acceptance=Accepted, patientId=null, physicianEmail=null, PatientName=null, submissionDate=null),AP005942]
+2023-04-17T00:22:12.963+05:30  INFO 20244 --- [http-nio-9003-exec-1] com.pms.Controller.CentralizedLogging    : ----->after @updateDetails:[Appointment(appointmentId=null, reason=null, appointmentDate=null, acceptance=Accepted, patientId=null, physicianEmail=null, PatientName=null, submissionDate=null),AP005942], result: <202 ACCEPTED Accepted,Appointment(appointmentId=null, reason=null, appointmentDate=null, acceptance=Accepted, patientId=null, physicianEmail=null, PatientName=null, submissionDate=null),[]>
+2023-04-17T00:22:12.992+05:30  INFO 20244 --- [http-nio-9003-exec-3] com.pms.Controller.CentralizedLogging    : ----->before @showAvailabilityByDate:[dr.roshan@pms.com,pending,null]
+2023-04-17T00:22:12.997+05:30  INFO 20244 --- [http-nio-9003-exec-3] com.pms.Controller.CentralizedLogging    : ----->after @showAvailabilityByDate:[dr.roshan@pms.com,pending,null], result: <200 OK OK,[],[]>
+2023-04-17T00:23:01.627+05:30  INFO 20244 --- [http-nio-9003-exec-8] com.pms.Controller.CentralizedLogging    : ----->before @findByAcceptance:[accepted]
+2023-04-17T00:23:01.641+05:30  INFO 20244 --- [http-nio-9003-exec-8] com.pms.Controller.CentralizedLogging    : ----->after @findByAcceptance:[accepted], result: <200 OK OK,[Appointment(appointmentId=AP005942, reason=headache, appointmentDate=2023-04-16, acceptance=Accepted, patientId=PA000DFC, physicianEmail=dr.roshan@pms.com, PatientName=Noorrullah Ansari, submissionDate=2023-04-16)],[]>
+2023-04-17T00:26:28.192+05:30  INFO 20244 --- [http-nio-9003-exec-8] com.pms.Controller.CentralizedLogging    : ----->before @findByAcceptance:[accepted]
+2023-04-17T00:26:28.202+05:30  INFO 20244 --- [http-nio-9003-exec-8] com.pms.Controller.CentralizedLogging    : ----->after @findByAcceptance:[accepted], result: <200 OK OK,[Appointment(appointmentId=AP005942, reason=headache, appointmentDate=2023-04-16, acceptance=Accepted, patientId=PA000DFC, physicianEmail=dr.roshan@pms.com, PatientName=Noorrullah Ansari, submissionDate=2023-04-16)],[]>
+2023-04-17T00:26:30.531+05:30  INFO 20244 --- [http-nio-9003-exec-7] com.pms.Controller.CentralizedLogging    : ----->before @findByAcceptance:[accepted]
+2023-04-17T00:26:30.546+05:30  INFO 20244 --- [http-nio-9003-exec-7] com.pms.Controller.CentralizedLogging    : ----->after @findByAcceptance:[accepted], result: <200 OK OK,[Appointment(appointmentId=AP005942, reason=headache, appointmentDate=2023-04-16, acceptance=Accepted, patientId=PA000DFC, physicianEmail=dr.roshan@pms.com, PatientName=Noorrullah Ansari, submissionDate=2023-04-16)],[]>
+2023-04-17T00:37:37.611+05:30  INFO 20244 --- [RMI TCP Connection(98)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-04-17T00:37:37.800+05:30  INFO 20244 --- [RMI TCP Connection(98)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-17T00:37:37.811+05:30  INFO 20244 --- [RMI TCP Connection(98)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-17T00:37:37.813+05:30  INFO 20244 --- [catalogWatchTaskScheduler-1] o.apache.http.impl.execchain.RetryExec   : I/O exception (java.net.SocketException) caught when processing request to {}->http://localhost:8500: An established connection was aborted by the software in your host machine
+2023-04-17T00:37:37.814+05:30  INFO 20244 --- [catalogWatchTaskScheduler-1] o.apache.http.impl.execchain.RetryExec   : Retrying request to {}->http://localhost:8500
+2023-04-17T00:37:37.848+05:30  WARN 20244 --- [RMI TCP Connection(98)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [boundedElastic-evictor-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-04-17T00:37:37.859+05:30  WARN 20244 --- [RMI TCP Connection(98)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [boundedElastic-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.6/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.6/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.6/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.6/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.6/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.6/java.lang.Thread.run(Thread.java:833)
+2023-04-17T00:37:37.826+05:30 ERROR 20244 --- [catalogWatchTaskScheduler-1] o.s.c.c.discovery.ConsulDiscoveryClient  : Error watching Consul CatalogServices
+
+com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:83) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.transport.AbstractHttpTransport.makeGetRequest(AbstractHttpTransport.java:36) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulRawClient.makeGetRequest(ConsulRawClient.java:139) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.catalog.CatalogConsulClient.getCatalogServices(CatalogConsulClient.java:143) ~[consul-api-1.4.5.jar:na]
+	at com.ecwid.consul.v1.ConsulClient.getCatalogServices(ConsulClient.java:400) ~[consul-api-1.4.5.jar:na]
+	at org.springframework.cloud.consul.discovery.ConsulCatalogWatch.catalogServicesWatch(ConsulCatalogWatch.java:130) ~[spring-cloud-consul-discovery-4.0.1.jar:4.0.1]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.0.7.jar:6.0.7]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:156) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:221) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:165) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:140) ~[httpclient-4.5.14.jar:4.5.14]
+	at com.ecwid.consul.transport.AbstractHttpTransport.executeRequest(AbstractHttpTransport.java:70) ~[consul-api-1.4.5.jar:na]
+	... 12 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142) ~[httpclient-4.5.14.jar:4.5.14]
+	... 24 common frames omitted
+
+2023-04-17T00:37:37.879+05:30  INFO 20244 --- [RMI TCP Connection(98)-127.0.0.1] o.s.c.c.s.ConsulServiceRegistry          : Deregistering service with consul: g2-Appointment-service-9003
+2023-04-17T00:37:37.893+05:30  WARN 20244 --- [RMI TCP Connection(98)-127.0.0.1] .s.c.a.CommonAnnotationBeanPostProcessor : Destroy method on bean with name 'consulAutoServiceRegistration' threw an exception: com.ecwid.consul.transport.TransportException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:8500 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2023-04-17T00:37:37.940+05:30  INFO 20244 --- [RMI TCP Connection(98)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17T00:37:37.985+05:30  INFO 20244 --- [RMI TCP Connection(98)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-17T00:37:37.997+05:30  INFO 20244 --- [RMI TCP Connection(98)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
