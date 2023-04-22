@@ -40,7 +40,7 @@ stage('DockerBuild') {
 
 steps {
 
-sh 'docker build -t NoorullahAnsari1996/g2-appointment-service:latest .'
+sh 'docker build -t noorullahansari1996/g2-appointment-service:latest .'
 
 }
 
@@ -50,7 +50,7 @@ stage('Login') {
 
 steps {
 
-sh 'echo Noorullah@8227907838 | docker login -u NoorullahAnsari1996 --password-stdin'
+sh 'echo Noorullah@8227907838 | docker login -u noorullahansari1996 --password-stdin'
 
 }
 
