@@ -60,7 +60,7 @@ stage('Push') {
 
 steps {
 
-sh 'docker push services/g2-appointment-service'
+sh 'docker push noorullahansari1996/g2-appointment-service'
 
 }
 
